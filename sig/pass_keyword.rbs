@@ -1,0 +1,7 @@
+module PassKeyword
+  VERSION: String
+end
+
+module Kernel
+  def pass: () -> void
+end
