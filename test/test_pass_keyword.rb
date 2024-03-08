@@ -8,6 +8,6 @@ class TestPassKeyword < Minitest::Test
   end
 
   def test_it_does_pass
-    pass
+    assert_nil Kernel.pass
   end
 end
