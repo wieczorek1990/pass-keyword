@@ -6,3 +6,22 @@ sources:
     repo_dir: gems
 
 path: .gem_rbs_collection
+
+gems:
+  - name: concurrent-ruby
+    ignore: true
+  - name: parser
+    ignore: true
+  - name: steep
+    ignore: true
+  - name: rubocop
+    ignore: true
+  - name: rubocop-ast
+    ignore: true
+  - name: fileutils
+    ignore: true
+  - name: rake
+    ignore: true
+  # TODO: not ignored
+  - name: mutex_m
+    ignore: true
